@@ -2,7 +2,7 @@ import { resolve } from "path";
 import { fileURLToPath } from "url";
 import tsconfigPaths from "vite-plugin-tsconfig-paths";
 import { defineConfig } from "vitest/config";
-import pkg from "./package.json";
+import pkg from "./package.json" with { type: "json" };
 
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 
