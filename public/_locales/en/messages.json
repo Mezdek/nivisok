@@ -1,0 +1,36 @@
+{
+  "ext_name": { "message": "Nivîsok" },
+  "ext_description": {
+    "message": "A quick-note side panel for your browser. Clip selected text or type freely. Notes stay until you delete them."
+  },
+  "placeholder_write": { "message": "Write a note\u2026" },
+  "hint_save": { "message": "Ctrl+Enter to save" },
+  "btn_save": { "message": "Save" },
+  "btn_cancel": { "message": "Cancel" },
+  "btn_edit": { "message": "Edit" },
+  "btn_export": { "message": "Export" },
+  "btn_export_selected": { "message": "Export selected" },
+  "btn_delete": { "message": "Delete" },
+  "btn_delete_selected": { "message": "Delete selected" },
+  "label_self_created": { "message": "Self created" },
+  "label_created": { "message": "Created" },
+  "empty_state": { "message": "No notes yet." },
+  "context_menu_create": { "message": "Create note" },
+  "notes_none": { "message": "no notes" },
+  "notes_singular": { "message": "1 note" },
+  "notes_dual": { "message": "2 notes" },
+  "notes_plural": {
+    "message": "$COUNT$ notes",
+    "placeholders": { "count": { "content": "$1", "example": "5" } }
+  },
+  "about_aria_label": { "message": "About Nivîsok" },
+  "about_close_aria": { "message": "Close" },
+  "about_description": {
+    "message": "A quick-note side panel for your browser. Clip selected text or type freely."
+  },
+  "about_label_version": { "message": "Version" },
+  "about_label_author": { "message": "Author" },
+  "about_link_contact": { "message": "Contact developer" },
+  "about_link_github": { "message": "View on GitHub" },
+  "about_link_coffee": { "message": "Buy me a coffee" }
+}

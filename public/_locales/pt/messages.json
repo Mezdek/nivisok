@@ -1,0 +1,36 @@
+{
+  "ext_name": { "message": "Nivîsok" },
+  "ext_description": {
+    "message": "Um painel lateral de notas rápidas para o seu navegador. Salve texto selecionado ou escreva livremente. As notas ficam até você as excluir."
+  },
+  "placeholder_write": { "message": "Escreva uma nota…" },
+  "hint_save": { "message": "Ctrl+Enter para salvar" },
+  "btn_save": { "message": "Salvar" },
+  "btn_cancel": { "message": "Cancelar" },
+  "btn_edit": { "message": "Editar" },
+  "btn_export": { "message": "Exportar" },
+  "btn_export_selected": { "message": "Exportar selecionados" },
+  "btn_delete": { "message": "Excluir" },
+  "btn_delete_selected": { "message": "Excluir selecionados" },
+  "label_self_created": { "message": "Criado manualmente" },
+  "label_created": { "message": "Criado" },
+  "empty_state": { "message": "Nenhuma nota ainda." },
+  "context_menu_create": { "message": "Criar nota" },
+  "notes_none": { "message": "sem notas" },
+  "notes_singular": { "message": "1 nota" },
+  "notes_dual": { "message": "2 notas" },
+  "notes_plural": {
+    "message": "$COUNT$ notas",
+    "placeholders": { "count": { "content": "$1", "example": "5" } }
+  },
+  "about_aria_label": { "message": "Sobre o Nivîsok" },
+  "about_close_aria": { "message": "Fechar" },
+  "about_description": {
+    "message": "Um painel lateral de notas rápidas para o seu navegador. Salve texto selecionado ou escreva livremente."
+  },
+  "about_label_version": { "message": "Versão" },
+  "about_label_author": { "message": "Autor" },
+  "about_link_contact": { "message": "Contatar o desenvolvedor" },
+  "about_link_github": { "message": "Ver no GitHub" },
+  "about_link_coffee": { "message": "Me pague um café" }
+}

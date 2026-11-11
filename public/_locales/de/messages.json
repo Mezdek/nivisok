@@ -1,0 +1,36 @@
+{
+  "ext_name": { "message": "Nivîsok" },
+  "ext_description": {
+    "message": "Ein Seitenbereich für schnelle Notizen in deinem Browser. Markierten Text speichern oder frei tippen. Notizen bleiben, bis du sie löschst."
+  },
+  "placeholder_write": { "message": "Notiz schreiben…" },
+  "hint_save": { "message": "Ctrl+Enter zum Speichern" },
+  "btn_save": { "message": "Speichern" },
+  "btn_cancel": { "message": "Abbrechen" },
+  "btn_edit": { "message": "Bearbeiten" },
+  "btn_export": { "message": "Exportieren" },
+  "btn_export_selected": { "message": "Auswahl exportieren" },
+  "btn_delete": { "message": "Löschen" },
+  "btn_delete_selected": { "message": "Auswahl löschen" },
+  "label_self_created": { "message": "Selbst erstellt" },
+  "label_created": { "message": "Erstellt" },
+  "empty_state": { "message": "Noch keine Notizen." },
+  "context_menu_create": { "message": "Notiz erstellen" },
+  "notes_none": { "message": "keine Notizen" },
+  "notes_singular": { "message": "1 Notiz" },
+  "notes_dual": { "message": "2 Notizen" },
+  "notes_plural": {
+    "message": "$COUNT$ Notizen",
+    "placeholders": { "count": { "content": "$1", "example": "5" } }
+  },
+  "about_aria_label": { "message": "Über Nivîsok" },
+  "about_close_aria": { "message": "Schließen" },
+  "about_description": {
+    "message": "Ein Seitenbereich für schnelle Notizen in deinem Browser. Markierten Text speichern oder frei tippen."
+  },
+  "about_label_version": { "message": "Version" },
+  "about_label_author": { "message": "Autor" },
+  "about_link_contact": { "message": "Entwickler kontaktieren" },
+  "about_link_github": { "message": "Auf GitHub ansehen" },
+  "about_link_coffee": { "message": "Kauf mir einen Kaffee" }
+}

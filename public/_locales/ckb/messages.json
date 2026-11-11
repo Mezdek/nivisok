@@ -1,0 +1,36 @@
+{
+  "ext_name": { "message": "Nivîsok" },
+  "ext_description": {
+    "message": "پانێلێکی لای بۆ تێبینی خێرا لە وێبگەڕەکەتدا. دەقی هەڵبژێردراو پاشەکەوت بکە یان ئازادانە بنووسە. تێبینیەکان دەمێننەوە تا کاتێک بیسڕیتەوە."
+  },
+  "placeholder_write": { "message": "تێبینییەک بنووسە…" },
+  "hint_save": { "message": "Ctrl+Enter بۆ پاشەکەوتکردن" },
+  "btn_save": { "message": "پاشەکەوتکردن" },
+  "btn_cancel": { "message": "هەڵweşاندنەوە" },
+  "btn_edit": { "message": "دەستکاریکردن" },
+  "btn_export": { "message": "ناردنە دەرەوە" },
+  "btn_export_selected": { "message": "ناردنی هەڵبژێردراو" },
+  "btn_delete": { "message": "سڕینەوە" },
+  "btn_delete_selected": { "message": "سڕینەوەی هەڵبژێردراو" },
+  "label_self_created": { "message": "خۆت دروستکردووە" },
+  "label_created": { "message": "دروستکراوە" },
+  "empty_state": { "message": "هێشتا هیچ تێبینییەک نییە." },
+  "context_menu_create": { "message": "دروستکردنی تێبینی" },
+  "notes_none": { "message": "هیچ تێبینییەک نییە" },
+  "notes_singular": { "message": "١ تێبینی" },
+  "notes_dual": { "message": "٢ تێبینی" },
+  "notes_plural": {
+    "message": "$COUNT$ تێبینی",
+    "placeholders": { "count": { "content": "$1", "example": "5" } }
+  },
+  "about_aria_label": { "message": "دەربارەی Nivîsok" },
+  "about_close_aria": { "message": "داخستن" },
+  "about_description": {
+    "message": "پانێلێکی لای بۆ تێبینی خێرا لە وێبگەڕەکەتدا. دەقی هەڵبژێردراو پاشەکەوت بکە یان ئازادانە بنووسە."
+  },
+  "about_label_version": { "message": "وەشان" },
+  "about_label_author": { "message": "دەنووسەر" },
+  "about_link_contact": { "message": "پەیوەندی بە دەنووسەرەوە" },
+  "about_link_github": { "message": "بینین لە GitHub" },
+  "about_link_coffee": { "message": "کافێیەکم بکڕە" }
+}

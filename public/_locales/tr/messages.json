@@ -1,0 +1,36 @@
+{
+  "ext_name": { "message": "Nivîsok" },
+  "ext_description": {
+    "message": "Tarayıcın için hızlı not yan paneli. Seçili metni kaydet ya da özgürce yaz. Notlar silinene kadar kalır."
+  },
+  "placeholder_write": { "message": "Bir not yaz…" },
+  "hint_save": { "message": "Kaydetmek için Ctrl+Enter" },
+  "btn_save": { "message": "Kaydet" },
+  "btn_cancel": { "message": "İptal" },
+  "btn_edit": { "message": "Düzenle" },
+  "btn_export": { "message": "Dışa aktar" },
+  "btn_export_selected": { "message": "Seçilenleri dışa aktar" },
+  "btn_delete": { "message": "Sil" },
+  "btn_delete_selected": { "message": "Seçilenleri sil" },
+  "label_self_created": { "message": "Kendin oluşturdun" },
+  "label_created": { "message": "Oluşturuldu" },
+  "empty_state": { "message": "Henüz not yok." },
+  "context_menu_create": { "message": "Not oluştur" },
+  "notes_none": { "message": "not yok" },
+  "notes_singular": { "message": "1 not" },
+  "notes_dual": { "message": "2 not" },
+  "notes_plural": {
+    "message": "$COUNT$ not",
+    "placeholders": { "count": { "content": "$1", "example": "5" } }
+  },
+  "about_aria_label": { "message": "Nivîsok hakkında" },
+  "about_close_aria": { "message": "Kapat" },
+  "about_description": {
+    "message": "Tarayıcın için hızlı not yan paneli. Seçili metni kaydet ya da özgürce yaz."
+  },
+  "about_label_version": { "message": "Sürüm" },
+  "about_label_author": { "message": "Geliştirici" },
+  "about_link_contact": { "message": "Geliştiriciyle iletişim" },
+  "about_link_github": { "message": "GitHub'da görüntüle" },
+  "about_link_coffee": { "message": "Bana bir kahve ısmarla" }
+}

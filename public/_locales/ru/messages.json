@@ -1,0 +1,36 @@
+{
+  "ext_name": { "message": "Nivîsok" },
+  "ext_description": {
+    "message": "Боковая панель для быстрых заметок в вашем браузере. Сохраняйте выделенный текст или пишите свободно. Заметки хранятся, пока вы их не удалите."
+  },
+  "placeholder_write": { "message": "Написать заметку…" },
+  "hint_save": { "message": "Ctrl+Enter для сохранения" },
+  "btn_save": { "message": "Сохранить" },
+  "btn_cancel": { "message": "Отмена" },
+  "btn_edit": { "message": "Изменить" },
+  "btn_export": { "message": "Экспорт" },
+  "btn_export_selected": { "message": "Экспортировать выбранное" },
+  "btn_delete": { "message": "Удалить" },
+  "btn_delete_selected": { "message": "Удалить выбранное" },
+  "label_self_created": { "message": "Создано вручную" },
+  "label_created": { "message": "Создано" },
+  "empty_state": { "message": "Заметок пока нет." },
+  "context_menu_create": { "message": "Создать заметку" },
+  "notes_none": { "message": "нет заметок" },
+  "notes_singular": { "message": "1 заметка" },
+  "notes_dual": { "message": "2 заметки" },
+  "notes_plural": {
+    "message": "$COUNT$ заметок",
+    "placeholders": { "count": { "content": "$1", "example": "5" } }
+  },
+  "about_aria_label": { "message": "О Nivîsok" },
+  "about_close_aria": { "message": "Закрыть" },
+  "about_description": {
+    "message": "Боковая панель для быстрых заметок в вашем браузере. Сохраняйте выделенный текст или пишите свободно."
+  },
+  "about_label_version": { "message": "Версия" },
+  "about_label_author": { "message": "Автор" },
+  "about_link_contact": { "message": "Связаться с разработчиком" },
+  "about_link_github": { "message": "Открыть на GitHub" },
+  "about_link_coffee": { "message": "Угостить кофе" }
+}

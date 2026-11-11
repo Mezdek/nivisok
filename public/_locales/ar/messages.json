@@ -1,0 +1,36 @@
+{
+  "ext_name": { "message": "Nivîsok" },
+  "ext_description": {
+    "message": "لوحة جانبية للملاحظات السريعة في متصفحك. احفظ نصًا محددًا أو اكتب بحرية. تبقى الملاحظات حتى تحذفها."
+  },
+  "placeholder_write": { "message": "اكتب ملاحظة…" },
+  "hint_save": { "message": "Ctrl+Enter للحفظ" },
+  "btn_save": { "message": "حفظ" },
+  "btn_cancel": { "message": "إلغاء" },
+  "btn_edit": { "message": "تعديل" },
+  "btn_export": { "message": "تصدير" },
+  "btn_export_selected": { "message": "تصدير المحدد" },
+  "btn_delete": { "message": "حذف" },
+  "btn_delete_selected": { "message": "حذف المحدد" },
+  "label_self_created": { "message": "منشأ ذاتيًا" },
+  "label_created": { "message": "تاريخ الإنشاء" },
+  "empty_state": { "message": "لا توجد ملاحظات بعد." },
+  "context_menu_create": { "message": "إنشاء ملاحظة" },
+  "notes_none": { "message": "لا ملاحظات" },
+  "notes_singular": { "message": "ملاحظة واحدة" },
+  "notes_dual": { "message": "ملاحظتان" },
+  "notes_plural": {
+    "message": "$COUNT$ ملاحظات",
+    "placeholders": { "count": { "content": "$1", "example": "5" } }
+  },
+  "about_aria_label": { "message": "حول Nivîsok" },
+  "about_close_aria": { "message": "إغلاق" },
+  "about_description": {
+    "message": "لوحة جانبية للملاحظات السريعة في متصفحك. احفظ نصًا محددًا أو اكتب بحرية."
+  },
+  "about_label_version": { "message": "الإصدار" },
+  "about_label_author": { "message": "المطوّر" },
+  "about_link_contact": { "message": "تواصل مع المطوّر" },
+  "about_link_github": { "message": "عرض على GitHub" },
+  "about_link_coffee": { "message": "اشترِ لي قهوة" }
+}

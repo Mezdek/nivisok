@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="application-name" content="Nivîsok"/>
+    <meta name="description" id="meta-description" content=""/>
+    <meta name="keywords" id="meta-keywords" content=""/>
+    <meta name="author" id="meta-author" content=""/>
+    <meta name="robots" content="noindex, nofollow"/>
+    <title>Nivîsok</title>
+    <link rel="stylesheet" href="./styles/sidepanel.css"/>
+  </head>
+  <body>
+
+    <!-- Compose area -->
+    <div class="compose">
+      <textarea id="input" placeholder=""></textarea>
+      <div class="compose-footer">
+        <span class="hint" id="hint-save"></span>
+        <button id="save-btn" class="primary"></button>
+      </div>
+    </div>
+
+    <!-- Toolbar -->
+    <div class="toolbar">
+      <span id="count"></span>
+      <div class="toolbar-actions">
+        <button id="about-btn" class="icon-btn" aria-label="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="12" y1="16" x2="12" y2="12"/>
+            <line x1="12" y1="8" x2="12.01" y2="8"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Batch action bar -->
+    <div class="batch-bar">
+      <button id="export-selected-btn" disabled></button>
+      <button id="delete-selected-btn" disabled></button>
+    </div>
+
+    <!-- Notes list -->
+    <div id="notes-list"></div>
+
+    <!-- About modal overlay -->
+    <div id="about-overlay" class="overlay" role="dialog" aria-modal="true" aria-labelledby="about-title">
+      <div class="overlay-card">
+        <div class="overlay-header">
+          <h2 id="about-title">Nivîsok</h2>
+          <button id="about-close" class="icon-btn" aria-label="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor" stroke-width="2.5"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="18" y1="6" x2="6" y2="18"/>
+              <line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+          </button>
+        </div>
+
+        <p id="about-description" class="overlay-description"></p>
+
+        <dl class="overlay-meta">
+          <div class="overlay-meta-row">
+            <dt id="about-label-version"></dt>
+            <dd id="about-value-version"></dd>
+          </div>
+          <div class="overlay-meta-row">
+            <dt id="about-label-author"></dt>
+            <dd id="about-value-author"></dd>
+          </div>
+        </dl>
+
+        <div class="overlay-links">
+          <a id="about-link-contact" href="" target="_blank" rel="noopener noreferrer" class="overlay-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <span></span>
+          </a>
+
+          <a id="about-link-github" href="" target="_blank" rel="noopener noreferrer" class="overlay-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                 fill="currentColor" aria-hidden="true">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+            <span></span>
+          </a>
+
+          <a id="about-link-coffee" href="" target="_blank" rel="noopener noreferrer" class="overlay-link overlay-link--coffee">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+              <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+              <line x1="6" y1="1" x2="6" y2="4"/>
+              <line x1="10" y1="1" x2="10" y2="4"/>
+              <line x1="14" y1="1" x2="14" y2="4"/>
+            </svg>
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./src/ui/sidepanel.ts"></script>
+  </body>
+</html>

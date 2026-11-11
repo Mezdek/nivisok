@@ -1,0 +1,36 @@
+{
+  "ext_name": { "message": "Nivîsok" },
+  "ext_description": {
+    "message": "Un panel lateral de notas rápidas para tu navegador. Guarda texto seleccionado o escribe libremente. Las notas permanecen hasta que las elimines."
+  },
+  "placeholder_write": { "message": "Escribe una nota…" },
+  "hint_save": { "message": "Ctrl+Enter para guardar" },
+  "btn_save": { "message": "Guardar" },
+  "btn_cancel": { "message": "Cancelar" },
+  "btn_edit": { "message": "Editar" },
+  "btn_export": { "message": "Exportar" },
+  "btn_export_selected": { "message": "Exportar selección" },
+  "btn_delete": { "message": "Eliminar" },
+  "btn_delete_selected": { "message": "Eliminar selección" },
+  "label_self_created": { "message": "Creado manualmente" },
+  "label_created": { "message": "Creado" },
+  "empty_state": { "message": "Aún no hay notas." },
+  "context_menu_create": { "message": "Crear nota" },
+  "notes_none": { "message": "sin notas" },
+  "notes_singular": { "message": "1 nota" },
+  "notes_dual": { "message": "2 notas" },
+  "notes_plural": {
+    "message": "$COUNT$ notas",
+    "placeholders": { "count": { "content": "$1", "example": "5" } }
+  },
+  "about_aria_label": { "message": "Acerca de Nivîsok" },
+  "about_close_aria": { "message": "Cerrar" },
+  "about_description": {
+    "message": "Un panel lateral de notas rápidas para tu navegador. Guarda texto seleccionado o escribe libremente."
+  },
+  "about_label_version": { "message": "Versión" },
+  "about_label_author": { "message": "Autor" },
+  "about_link_contact": { "message": "Contactar al desarrollador" },
+  "about_link_github": { "message": "Ver en GitHub" },
+  "about_link_coffee": { "message": "Invítame un café" }
+}

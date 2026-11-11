@@ -1,0 +1,36 @@
+{
+  "ext_name": { "message": "Nivîsok" },
+  "ext_description": {
+    "message": "Depeke aliyî ji bo têbîniyên bilez li geroka te. Nivîsara hilbijartî tomar bike an jî azadane binivîse. Têbînî dimînin heta ku tu wan jêbibî."
+  },
+  "placeholder_write": { "message": "Têbîniyek binivîse…" },
+  "hint_save": { "message": "Ctrl+Enter ji bo tomarkirinê" },
+  "btn_save": { "message": "Tomarkirin" },
+  "btn_cancel": { "message": "Betal" },
+  "btn_edit": { "message": "Guhertin" },
+  "btn_export": { "message": "Derxistin" },
+  "btn_export_selected": { "message": "Hilbijartiyan derxe" },
+  "btn_delete": { "message": "Jêbirin" },
+  "btn_delete_selected": { "message": "Hilbijartiyan jêbibe" },
+  "label_self_created": { "message": "Bidest nivîsandî" },
+  "label_created": { "message": "Afirandî" },
+  "empty_state": { "message": "Hîn têbînî tune." },
+  "context_menu_create": { "message": "Têbîniyekê binivîsîne" },
+  "notes_none": { "message": "Ti têbînî tune" },
+  "notes_singular": { "message": "Têbîniyek" },
+  "notes_dual": { "message": "2 Têbînî" },
+  "notes_plural": {
+    "message": "$COUNT$ Têbînî",
+    "placeholders": { "count": { "content": "$1", "example": "5" } }
+  },
+  "about_aria_label": { "message": "Derbarê Nivîsok" },
+  "about_close_aria": { "message": "Bigire" },
+  "about_description": {
+    "message": "Depeke aliyî ji bo têbîniyên bilez li geroka te. Nivîsara hilbijartî tomar bike an jî azadane binivîse."
+  },
+  "about_label_version": { "message": "Guherto" },
+  "about_label_author": { "message": "Nivîskar" },
+  "about_link_contact": { "message": "Pêwendî bi nivîskar re" },
+  "about_link_github": { "message": "Li GitHub bibîne" },
+  "about_link_coffee": { "message": "Ji min re qehweyek bikire" }
+}
